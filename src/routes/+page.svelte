@@ -10,6 +10,10 @@
   import mongoose from "../lib/assets/mongodb-svgrepo-com.svg";
   import whirra from "../lib/assets/whirra.png";
   import figma from "../lib/assets/figma.png";
+  import ogmeta from "../lib/assets/ogmeta.png";
+  import triangle from "../lib/assets/triangle.png";
+  import wira from "../lib/assets/wira.png";
+  import eye from "../lib/assets/eye.png";
   import { Shell } from "lucide-svelte";
 </script>
 
@@ -21,6 +25,10 @@
         <p>Velibor Minić</p>
         <p>Bosnia and Herzegovina</p>
         <p>Full Stack Web Developer</p>
+        <a href="mailto:velibordev@gmail.com" target="_blank"
+          >velibordev@gmail.com</a
+        >
+        <a href="https://github.com/vlbr99" target="_blank">Github</a>
       </div>
     </div>
     <div class="description">
@@ -87,11 +95,11 @@
   </div>
 </div>
 <div class="projects_wrapper">
-  <h1>MY LATEST PROJECTS</h1>
+  <h1>MY 2025 PROJECTS</h1>
   <div class="projects">
     <div class="project_row">
       <div>
-        <img src={whirra} alt="whirra" />
+        <img src={wira} alt="whirra" />
         <main class="project_text">
           <h2>Whirra</h2>
           <p>
@@ -99,52 +107,49 @@
             development.
           </p>
           <main class="project_buttons">
-            <a href="#">Github</a>
-            <a href="#">whirra.vercel.app</a>
+            <a href="https://whirra.vercel.app" target="_blank">Live Website</a>
           </main>
         </main>
       </div>
       <div>
-        <img src={whirra} alt="whirra" />
+        <img src={triangle} alt="triangle" />
         <main class="project_text">
-          <h2>Whirra</h2>
-          <p>
-            A SvelteKit + Mongoose multitool designed to accelerate website
-            development.
-          </p>
+          <h2>Triangle</h2>
+          <p>A website where you can showcase and explore coding ideas.</p>
           <main class="project_buttons">
-            <a href="#">Github</a>
-            <a href="#">whirra.vercel.app</a>
+            <a target="_blank" href="https://triangle-weld-zeta.vercel.app/"
+              >Github</a
+            >
+            <a target="_blank" href="https://github.com/vlbr99/triangle"
+              >Live Website</a
+            >
           </main>
         </main>
       </div>
     </div>
     <div class="project_row">
       <div>
-        <img src={whirra} alt="whirra" />
+        <img src={eye} alt="eye_image" />
         <main class="project_text">
-          <h2>Whirra</h2>
-          <p>
-            A SvelteKit + Mongoose multitool designed to accelerate website
-            development.
-          </p>
+          <h2>EYE</h2>
+          <p>Most secure password manager.</p>
           <main class="project_buttons">
             <a href="#">Github</a>
-            <a href="#">whirra.vercel.app</a>
+            <a href="#">Live Website</a>
           </main>
         </main>
       </div>
       <div>
-        <img src={whirra} alt="whirra" />
+        <img src={ogmeta} alt="ogmeta" />
         <main class="project_text">
-          <h2>Whirra</h2>
-          <p>
-            A SvelteKit + Mongoose multitool designed to accelerate website
-            development.
-          </p>
+          <h2>SquadForge</h2>
+          <p>Website that connects gamers [currently building]</p>
           <main class="project_buttons">
-            <a href="#">Github</a>
-            <a href="#">whirra.vercel.app</a>
+            <a
+              target="_blank"
+              href="https://www.figma.com/design/2QAG4xjDdF6MWzqRXPhgrg/SquadForge?node-id=0-1&p=f&t=xWOvLSi1Pxzb1Spi-0"
+              >View Figma design</a
+            >
           </main>
         </main>
       </div>
