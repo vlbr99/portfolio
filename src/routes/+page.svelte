@@ -117,10 +117,13 @@
           <h2>Triangle</h2>
           <p>A website where you can showcase and explore coding ideas.</p>
           <main class="project_buttons">
-            <a target="_blank" href="https://triangle-weld-zeta.vercel.app/"
-              >Github</a
+            <a
+              target="_blank"
+              href="
+            https://github.com/vlbr99/triangle
+            ">Github</a
             >
-            <a target="_blank" href="https://github.com/vlbr99/triangle"
+            <a target="_blank" href="https://triangle-weld-zeta.vercel.app/"
               >Live Website</a
             >
           </main>
