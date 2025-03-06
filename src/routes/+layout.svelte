@@ -3,7 +3,12 @@
   import Header from "../lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
   import "@fontsource-variable/geist";
+  import favicon from "../lib/assets/favicon.ico";
 </script>
+
+<svelte:head>
+  <link rel="icon" href={favicon} />
+</svelte:head>
 
 <Header></Header>
 {@render children()}
