@@ -14,6 +14,7 @@
   import triangle from "../lib/assets/triangle.png";
   import wira from "../lib/assets/wira.png";
   import eye from "../lib/assets/eye.png";
+  import blocks from "../lib/assets/blocks.png";
   import { Shell } from "lucide-svelte";
 </script>
 
@@ -132,13 +133,20 @@
     </div>
     <div class="project_row">
       <div>
-        <img src={eye} alt="eye_image" />
+        <img src={blocks} alt="eye_image" />
         <main class="project_text">
-          <h2>EYE</h2>
-          <p>Most secure password manager.</p>
+          <h2>Blocks</h2>
+          <p>Most secure password manager. [currently building]</p>
           <main class="project_buttons">
-            <a href="#">Github</a>
-            <a href="#">Live Website</a>
+            <a target="_blank" href="https://github.com/vlbr99/blocks">Github</a
+            >
+            <a target="_blank" href="https://blocks-pink-eight.vercel.app"
+              >Live Website</a
+            >
+            <a
+              href="https://www.figma.com/design/vstjamzYOjhipSdlg4IhQp/Untitled?node-id=0-1&t=SleS4tP7IUmIzhiA-1"
+              target="_blank">View Figma design</a
+            >
           </main>
         </main>
       </div>
@@ -146,7 +154,10 @@
         <img src={ogmeta} alt="ogmeta" />
         <main class="project_text">
           <h2>SquadForge</h2>
-          <p>Website that connects gamers [currently building]</p>
+          <p>
+            Website that connects gamers [will build after the "blocks" is
+            finished]
+          </p>
           <main class="project_buttons">
             <a
               target="_blank"
