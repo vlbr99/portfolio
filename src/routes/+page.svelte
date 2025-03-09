@@ -16,6 +16,7 @@
   import eye from "../lib/assets/eye.png";
   import blocks from "../lib/assets/blocks.png";
   import { Shell } from "lucide-svelte";
+  import ut from "../lib/assets/Untitled.png";
 </script>
 
 <div class="about_wrapper">
@@ -164,6 +165,18 @@
               href="https://www.figma.com/design/2QAG4xjDdF6MWzqRXPhgrg/SquadForge?node-id=0-1&p=f&t=xWOvLSi1Pxzb1Spi-0"
               >View Figma design</a
             >
+          </main>
+        </main>
+      </div>
+    </div>
+    <div class="project_row">
+      <div>
+        <img src={ut} alt="ogmeta" />
+        <main class="project_text">
+          <h2>71428</h2>
+          <p>Polished SCSS animations for your next project</p>
+          <main class="project_buttons">
+            <a target="_blank" href="https://71428.vercel.app">Live Website</a>
           </main>
         </main>
       </div>
